@@ -6,26 +6,31 @@ class Particle:
     
     Attributes
     ---------
-    x: numpy array
+    position: numpy array
         Uniformly distributed random vector.
     velocity: float
         Particle's velocity.
+    p_i: float
+        Particle's best known position.
     """
-    def __init__(self, x, velocity, fx):
-        self.x = x
+    def __init__(self, position, velocity, p_i):
+        self.position = position
         self.velocity = velocity
-        self.fx = fx
+        self.p_i = p_i
 
     def __repr__(self):
-        return "x: {0}\nVelocity: {1}\nF(x): {2}\n".format(
-            self.x, self.velocity, self.fx)
+        return "x: {0}\nVelocity: {1}\np_i: {2}\n".format(
+            self.x, self.velocity, self.p_i)
     
     def __str__(self):
-        return "x: {0}\nVelocity: {1}\nF(x): {2}\n".format(
-            self.x, self.velocity, self.fx)
-    
-    def set_neighbors(self, particulas):
-        self.neighbors = particulas
+        return "x: {0}\nVelocity: {1}\np_i: {2}\n".format(
+            self.x, self.velocity, self.p_i)
+
+    def set_x(self, x):
+        self.x = x
+
+    def set_velocity(self, velocity):
+        self.velocity = velocity
         
-    def set_fx(self, fx):
-        self.fx = fx
+    def set_p_i(self, p_i):
+        self.p_i = p_i
