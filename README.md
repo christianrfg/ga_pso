@@ -31,7 +31,7 @@ python3.x -m pip install numpy
 
 ## Jupyter Notebooks
 
-[Genetic Algorithm - Particle Swarm Optimization](TODO) -  Notebook with the description and execution of the PSO method to maximize one specifc function.
+[Genetic Algorithm - Particle Swarm Optimization](https://github.com/christianrfg/ga_pso/blob/master/Genetic%20Algorithm%20-%20Particle%20Swarm%20Optimization%20.ipynb) -  Notebook with the description and execution of the PSO method to maximize one specifc function.
 
 
 <!-- ## Contributing
