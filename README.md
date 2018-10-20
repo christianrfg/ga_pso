@@ -1,7 +1,6 @@
 # Particle Swarm Optimization (PSO)
 
-One Paragraph of project description goes here
-This project show how to implement the Particle Swarm Optimization (PSO) to maximize a function. All code are write in Python 3.x and Jupyter Notebook.
+This project show how to implement the Particle Swarm Optimization (PSO) to minimize/maximize some function. All codes are writen in Python 3.x and Jupyter Notebook. Most part of the code are implemented in Jupyter Notebook. The notebook explains the PSO method by one brief description given by Wikipedia. Also, in the notebook, it's implemented the pseudo-code and we running one example in a specific function.
 
 ## Getting Started
 
